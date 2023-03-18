@@ -11,7 +11,7 @@
 
 <div>
 
-<a href="https://xn--931a.moe/"><img src="[https://github.com/misskey-dev/misskey/blob/develop/assets/ai.png](https://raw.githubusercontent.com/Miel-shinonome/png/main/chiffon.png)?raw=true" align="right" height="320px"/></a>
+<a href="https://xn--931a.moe/"><img src="[https://github.com/Miel-shinonome/png/blob/main/chiffon.png](https://raw.githubusercontent.com/Miel-shinonome/png/main/chiffon.png)?raw=true" align="right" height="320px"/></a>
 
 ## ✨ Features
 - **ActivityPub support**\
