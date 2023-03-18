@@ -10,7 +10,7 @@
 			<MkPagination v-if="pagination" ref="pagingComponent" :key="userAcct || groupId" :pagination="pagination">
 				<template #empty>
 					<div class="_fullinfo">
-						<img src="https://xn--931a.moe/assets/info.jpg" class="_ghost"/>
+						<img src="https://raw.githubusercontent.com/Miel-shinonome/png/main/nana_info.png" class="_ghost"/>
 						<div>{{ i18n.ts.noMessagesYet }}</div>
 					</div>
 				</template>
