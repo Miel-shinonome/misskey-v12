@@ -1,6 +1,6 @@
 <div align="center">
 <a href="https://misskey-hub.net">
-	<img src=".packages/client/assets/misskey.svg" alt="Misskey logo" style="border-radius:50%" width="400"/>
+	<img src="./packages/client/assets/misskey.svg" style="border-radius:50%" width="400"/>
 </a>
 	
 **🌎 **[Misskey](https://misskey-hub.net/)** is an open source, decentralized social media platform that's free forever! **
