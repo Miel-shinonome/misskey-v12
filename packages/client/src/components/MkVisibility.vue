@@ -4,7 +4,7 @@
 	<i v-else-if="note.visibility === 'followers'" class="fas fa-unlock"></i>
 	<i v-else-if="note.visibility === 'specified'" ref="specified" class="fas fa-envelope"></i>
 </span>
-<span v-if="note.localOnly" :class="$style.localOnly"><i class="fas fa-biohazard"></i></span>
+<span v-if="note.localOnly" :class="$style.localOnly"><i class="fas fa-atom_symbol"></i></span>
 </template>
 
 <script lang="ts" setup>
