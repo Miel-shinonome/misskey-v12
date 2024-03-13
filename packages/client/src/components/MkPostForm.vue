@@ -14,7 +14,7 @@
 		</button>
 		<div class="right">
 			<span class="text-count" :class="{ over: textLength > maxTextLength }">{{ maxTextLength - textLength }}</span>
-			<span v-if="localOnly" class="local-only"><i class="fas fa-aries"></i></span>
+			<span v-if="localOnly" class="local-only"><i class="fab fa-react"></i></span>
 			<button ref="visibilityButton" v-tooltip="i18n.ts.visibility" class="_button visibility" :disabled="channel != null" @click="setVisibility">
 				<span v-if="visibility === 'public'"><i class="fas fa-globe"></i></span>
 				<span v-if="visibility === 'home'"><i class="fas fa-home"></i></span>
