@@ -9,7 +9,7 @@
 	<p v-if="count > 0" class="count">{{ count }}</p>
 </button>
 <button v-else class="eddddedb _button">
-	<i class="fas fa-ban"></i>
+	<i class="fas fa-lock"></i>
 </button>
 </template>
 
