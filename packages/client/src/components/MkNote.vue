@@ -82,7 +82,7 @@
 					<i class="fas fa-smile"></i>
 				</button>
 				<button v-if="appearNote.myReaction != null" ref="reactButton" class="button _button reacted" @click="undoReact(appearNote)">
-					<i class="fa-laugh-beam"></i>
+					<i class="fas fa-laugh-beam"></i>
 				</button>
 				<button ref="menuButton" class="button _button" @click="menu()">
 					<i class="fas fa-ellipsis-h"></i>
