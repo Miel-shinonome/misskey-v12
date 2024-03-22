@@ -232,11 +232,11 @@ export function getNoteMenu(props: {
 			} : undefined,
 			null,
 			statePromise.then(state => state.isFavorited ? {
-				icon: 'fas fa-star',
+				icon: 'fas fa-bookmark',
 				text: i18n.ts.unfavorite,
 				action: () => toggleFavorite(false),
 			} : {
-				icon: 'fas fa-star',
+				icon: 'fas fa-bookmark',
 				text: i18n.ts.favorite,
 				action: () => toggleFavorite(true),
 			}),
