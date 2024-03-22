@@ -72,7 +72,7 @@ export const navbarItemDef = reactive({
 	},
 	favorites: {
 		title: 'favorites',
-		icon: 'fas fa-star',
+		icon: 'fas fa-bookmark',
 		show: computed(() => $i != null),
 		to: '/my/favorites',
 	},
