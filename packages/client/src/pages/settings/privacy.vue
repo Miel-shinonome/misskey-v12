@@ -15,11 +15,7 @@
 		<option value="private">{{ i18n.ts._ffVisibility.private }}</option>
 		<template #caption>{{ i18n.ts.ffVisibilityDescription }}</template>
 	</FormSelect>
-		
-	<FormSwitch v-model="hideOnlineStatus" class="_formBlock" @update:modelValue="save()">
-		{{ i18n.ts.hideOnlineStatus }}
-		<template #caption>{{ i18n.ts.hideOnlineStatusDescription }}</template>
-	</FormSwitch>
+
 	<FormSwitch v-model="noCrawle" class="_formBlock" @update:modelValue="save()">
 		{{ i18n.ts.noCrawle }}
 		<template #caption>{{ i18n.ts.noCrawleDescription }}</template>
