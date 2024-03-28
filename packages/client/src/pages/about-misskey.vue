@@ -76,8 +76,7 @@ import * as os from '@/os';
 import { definePageMetadata } from '@/scripts/page-metadata';
 
 const patrons = [
-	'しかばねこ',
-	'穴守ほたる',
+	'ふぇるあ',
 ];
 
 let easterEggReady = false;
